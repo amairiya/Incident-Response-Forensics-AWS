@@ -5,7 +5,7 @@ import datetime
 iam = boto3.client('iam')
 s3 = boto3.client('s3')
 
-S3_BUCKET = "forensics-bucket"
+S3_BUCKET = "forensics-bucket-2"
 
 def lambda_handler(event, context):
     # Extraction du finding
